@@ -1,0 +1,303 @@
+ul,
+li {
+    list-style: none;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(https://cutewallpaper.org/21/black-clouds-background/73+-Dark-Clouds-Wallpapers-on-WallpaperPlay.jpg);
+    z-index: 1;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+    color: whitesmoke;
+}
+
+/* Cabeçalho Site*/
+
+.header {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    float: right;
+}
+
+
+.menu {
+    display: flex;
+    margin: 0;
+    right: 0px;
+    padding: 0px;
+    font-family: Quicksand;
+    color: whitesmoke
+}
+
+.menu li {
+    padding: 20px;
+    margin-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+
+/*Corpo do Site*/
+
+.fotoquemsou {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    top: 100px;
+}
+
+.fotoperfil {
+    border-radius: 100%;
+    width: 200px;
+}
+
+/* Quem Sou eu */
+
+.quemsoueu {
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    height: 500px;
+    border-radius: 100px;
+    top: 200px;
+    left: 100%;
+    margin-left: -50%;
+    transform: translate(-50%, 0%);
+}
+
+#titulonome {
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: greenyellow;
+
+}
+
+#descricaoqmsoueu {
+
+    position: relative;
+    width: 80%;
+    padding: 75px;
+    font-size: 19px;
+    text-align: center;
+    top: 115px;
+    margin: auto;
+
+}
+
+.quemsoueu article em,
+strong {
+    color: greenyellow
+}
+
+/* Habilidades */
+
+#iconhab {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    top: 800px;
+}
+
+#fotohabilidades {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.blocohab {
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    height: 500px;
+    border-radius: 100px;
+    top: 890px;
+    left: 100%;
+    margin-left: -50%;
+    transform: translate(-50%, 0%);
+}
+
+#titulohabilidade {
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: greenyellow;
+}
+
+#listahab {
+    display: flex;
+    padding: 10%;
+    justify-content: space-around;
+
+}
+
+.lista {
+    position: relative;
+    top: 65px;
+    font-size: 18px;
+}
+
+
+/* Projetos */
+#iconproject {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    top: 1500px;
+}
+
+#fotoprojeto {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.blocoproject {
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    height: 500px;
+    border-radius: 100px;
+    top: 1590px;
+    left: 100%;
+    margin-left: -50%;
+    transform: translate(-50%, 0%);
+
+}
+
+#tituloprojetos {
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 230px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: greenyellow;
+}
+
+/* Contato */
+
+#iconcontato {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    top: 2200px;
+}
+
+#fotocontato {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.blococontato {
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    height: 500px;
+    border-radius: 100px;
+    top: 2290px;
+    left: 100%;
+    margin-left: -50%;
+    transform: translate(-50%, 0%);
+}
+
+#titulocontato {
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: greenyellow;
+}
+
+#blocologos {
+    position: relative;
+    justify-content: space-between;
+    top: 110px;
+    padding: 10%;
+    left: 4%;
+}
+
+.logos {
+    position: relative;
+    border-radius: 100%;
+    width: 100px;
+    justify-content: space-evenly;
+    padding: 0 8% 0 8%;
+}
+
+/* Rodapé */
+
+#blocorodape {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    height: 50px;
+    top: 2850px;
+    left: 100%;
+    margin-bottom: 0;
+    margin-left: -50%;
+    transform: translate(-50%, 0%);
+}
+
+h3 {
+    font-size: 10px;
+}
